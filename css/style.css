@@ -36,7 +36,13 @@ button {
   border-radius: 10px;
   background: blue;
   color: white;
-  
+  #button-two {
+    height: 30px;
+  width: 60px;
+  border-radius: 10px;
+  background: pink;
+  color: white;
+  }
 }
 footer {
   background: blue;
