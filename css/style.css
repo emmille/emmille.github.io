@@ -43,7 +43,7 @@ button {
   background: pink;
   color: white;
 }
-button:hover {
+button:hover, #button-two:hover {
   background:yellow;
 }
 footer {
