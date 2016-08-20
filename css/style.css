@@ -4,6 +4,12 @@
   width: 200px;
   border-radius: 100px;
 }
+.square img{
+  border-radius: 15px 50px;
+  height: 200px;
+  width: 200px;
+  
+}
 header {
   background-image: url("https://static.pexels.com/photos/12064/pexels-photo-12064-large.jpeg");
   color: white;
