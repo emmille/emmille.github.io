@@ -1,3 +1,5 @@
 $(document).ready(function(){
- $('img').fadeIn(3000);
+ $('button').click(function(){
+   $('img').fadeIn(3000);
+ });
 });
