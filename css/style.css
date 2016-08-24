@@ -16,6 +16,9 @@ header {
   text-align: center;
   padding: 10px;
 }
+h1 {
+  display: none;
+}
 nav{
   line-height: 50px;
   background: #cccccc;
