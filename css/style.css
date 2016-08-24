@@ -10,9 +10,8 @@
   width: 200px;
 }
 header {
-  background-image: url("https://static.pexels.com/photos/12064/pexels-photo-12064-large.jpeg");
   background-size: cover;
-  background-color: blue;
+  background-color: red;
   color: black;
   text-align: center;
   padding: 10px;
