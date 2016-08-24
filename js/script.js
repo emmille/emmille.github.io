@@ -5,11 +5,11 @@ $(document).ready(function(){
  $('p').fadeIn(2000);
  $('h1').fadeIn(1000);
  
- $('header').click(function(){
+ $('header').ready(function(){
    $('header').css("background-color", "blue");
  })
  
- $('#fancy-text').click(function(){
+ $('#fancy-text').ready(function(){
   $('#fancy-text').css("font-style", "italic");
  })
 });
