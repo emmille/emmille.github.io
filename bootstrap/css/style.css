@@ -16,6 +16,7 @@ html {
     background: url('https://static.pexels.com/photos/24142/pexels-photo-24142-large.jpg');
     background-size: cover;
     background-size:contain;
+    background: center;
     color:#7fffd4;
     font-family:Impact, Charcoal, sans-serif;
 }
