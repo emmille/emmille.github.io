@@ -28,6 +28,10 @@ html {
     text-align: center;
     background: #fff;
 }
+#bed-photo{
+    height: 200px;
+    width: 300px;
+}
 
 .contact-section{
     height: 100%;
