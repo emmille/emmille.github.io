@@ -32,8 +32,8 @@ html {
     background: #fff;
 }
 #bed-photo{
-    height: 200px;
-    width: 300px;
+    height: 500px;
+    width: auto;
 }
 
 .contact-section{
