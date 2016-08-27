@@ -11,13 +11,12 @@ html {
 
 .intro-section{
     height: 100%;
-    padding-top: 150px;
+    padding-top: 100px;
     text-align: center;
     background: url('https://static.pexels.com/photos/24142/pexels-photo-24142-large.jpg');
     background-size: cover;
     color:#7fffd4;
     font-family:Impact, Charcoal, sans-serif;
-    background-color:white;
 }
 
 #modal-pic {
