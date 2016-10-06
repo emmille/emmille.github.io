@@ -11,7 +11,7 @@
 }
 header {
   background-size: cover;
-  background-color: red;
+  background-color: #3ccca6;
   color: black;
   text-align: center;
   padding: 10px;
@@ -31,6 +31,7 @@ section {
   width: 300px;
   float:center;
   padding: 15px;
+  background-color: #7a9991;
 }
 button {
   height: 30px;
