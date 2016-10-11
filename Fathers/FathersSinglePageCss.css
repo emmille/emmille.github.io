@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+}
+
+nav {
+    height: 14vh;
+    background-color: gray;
+    display: flex;
+    
+}
+
+#logo {
+    height: 12vh;
+    width: 18vw;
+    top: 1vh;
+    left: 1vh;
+    position: absolute;
+}
+
+#main {
+    width: 100vw;
+    height: 86vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.mission {
+    width: 100vw;
+    height: 100vh;
+    background-color: green;
+    margin-top: 0;
+    color: white;
+    background-image: url(darker%20grass.jpeg);
+    background-size: cover;
+}
+
+.mission h1 {
+    font-size: 10vh;
+    font-weight: bold;
+    left: 8vw;
+    position: relative;
+}
+
+.mission h2{
+    position: relative;
+    left: 8vw;
+    font-size: 7vh;
+}
+
+#plan {
+    
+}
+
+#planList {
+    style: none;
+}

@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    font-size:0;
+}
+
+#header{
+    height: 15vh;
+    width: 100vw;
+    max-width: 100%;
+    background-color: black;
+}
+
+.nav{
+    width: 92vw;
+    max-width: 92%;
+    height: 15vh;
+    display: table;
+    margin: 0 auto;
+    background: white;
+}
+
+#header img{
+    width: 25vw;
+}
+
+#mainbody{
+    background-color: black;
+    height: 75vh;
+    width: 100vw;
+    max-width: 100%;
+    display: inline-block;
+}
+
+#bodycontainer {
+    background-color: black;
+    width: 92vw;
+    height: 75vh;
+    max-width: 92%;
+    display: table;
+    margin: 0 auto;
+}
+
+#mainleft{
+    height: 70vh;
+    width: 47vw;
+    max-width: 47%;
+    background-color:white;
+    display: inline-block;
+    top: 2.5vh;
+    left: 0;
+    position: relative;
+    
+}
+
+#mainright{
+    height: 70vh;
+    width: 47vw;
+    max-width: 47%;
+    background-color: forestgreen;
+    display: inline-block;
+    top: 2.5vh;
+    float: right;
+    position: relative;
+}
+
+#footer{
+    height: 10vh;
+    width: 100vw;
+    max-width: 100vw;
+    display:inline-block;
+   /** background-image: url(darker%20grass.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;**/
+    margin; 0;
+}
