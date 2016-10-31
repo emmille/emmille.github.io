@@ -1,0 +1,24 @@
+body {
+    background: url(Marble%20One.png);
+    background-size: cover;
+}
+
+#navbarMain {
+    display: flex;
+    width: 95vw;
+    height: 10vh;
+    background-color: white;
+    border: 4px solid gray;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.topnav{
+    list-style: none;
+}
+
+.navbarCenter {
+    position: relative;
+    top: 50%;
+}
