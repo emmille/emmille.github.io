@@ -74,12 +74,12 @@ ul.topnav li.icon {
 .name {
     color: black;
     list-style: none;
-    font-size: 50px;
+    font-size: 45px;
     font-family: 'Taviraj', serif, bold;   
 }
 
 .name li {
-    font-size: 20px;
+    font-size: 17px;
     position: relative;
     left: 2vw;
     font-family: 'Lato', sans-serif;
