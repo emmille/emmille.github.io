@@ -12,6 +12,7 @@ ul.topnav {
     position: fixed;
     top: 0;
     z-index: 1;
+    width: 100%;
 }
 
 ul.topnav li{
@@ -45,7 +46,7 @@ ul.topnav li.icon {
     background: -webkit-linear-gradient(top,  #e0f3fa 0%,#52b2b0 0%,#b6dffd 77%,#b6dffd 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom,  #e0f3fa 0%,#52b2b0 0%,#b6dffd 77%,#b6dffd 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0f3fa', endColorstr='#b6dffd',GradientType=0 ); /* IE6-9 */
-    height: 90vh;
+    height: 93vh;
     width: 100vw;
     max-width: 100%;
 }
@@ -59,7 +60,7 @@ ul.topnav li.icon {
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-top: -28vh;
+    margin-top: -35vh;
     margin-left: -40vw;
     min-height: 50%;
     overflow: hidden;
@@ -86,17 +87,12 @@ ul.topnav li.icon {
 }
 
 .projects {
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#52b2b0+0,ffffff+37,ffffff+62,ff5b00+100 */
-    background: #52b2b0; /* Old browsers */
-    background: -moz-linear-gradient(top,  #52b2b0 0%, #ffffff 37%, #ffffff 62%, #ff5b00 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top,  #52b2b0 0%,#ffffff 37%,#ffffff 62%,#ff5b00 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom,  #52b2b0 0%,#ffffff 37%,#ffffff 62%,#ff5b00 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#52b2b0', endColorstr='#ff5b00',GradientType=0 ); /* IE6-9 */
-    border-top: 10px solid white;
-    height: 100vh;
+    position: relative;
+    height: 93vh;
+    max-height: 100%;
     width: 100vw;
     max-width: 100%;
-
+    top: 40px;
 }
 
 .projectsHeader {
@@ -109,30 +105,30 @@ ul.topnav li.icon {
 
 .sites {
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
 .sitelink {
     width: 20vw;
+    min-width: 20vw;
     padding-left: 2vw;
     padding-right: 2vw;
     box-sizing: border-box;
+    flex-wrap: wrap;
 }
 
 .sitelink img{
     max-width: 13vw;
 }
 
-.experience {
-    border-top: 10px solid white;
-    height: 90vh;
-    width: 100vw;
-    max-width: 100%;
-    background-image: url(laptopphoto.jpeg);
-    background-size: cover;
-    max-height: 100%;
+.experienceImage img{
+    width: 100%;
+    height: 70vh;
+    position: absolute;
 }
+
 .positions {
     position: relative;
     width: 90vw;
@@ -149,26 +145,6 @@ ul.topnav li.icon {
     font-family: 'Josefin Sans', sans-serif;
 }
 
-.skills {
-    
-    border-top: 10px solid white;
-    height: 90vh;
-    width: 100vw;
-    max-width: 100%;
-    background-image: url(skills.jpg);
-    background-size: cover;
-    max-height: 100%;
-    font-size: 20px;
-}
-
-.references {
-    border-top: 10px solid white;
-    height: 70%;
-    max-height: 100%;
-    width: 100vw;
-    max-width: 100%;
-    background-color: azure;
-}
 
 .flexreferences {
     display: flex;
@@ -179,13 +155,20 @@ ul.topnav li.icon {
 }
 
 .molly {
-    width: 20vh;
+    display: inline-flex;
+    height: 50vh;
+    width: 20vw;
     border: 5px solid black;
     box-sizing: border-box;
     padding: 5px;
     font-size: 20px;
     margin-left: 15px;
-    
+}
+
+.footnote{
+    padding-top: 5vh;
+    padding-left: 5vw;
+    position: relative;
 }
 
 .container {
@@ -214,21 +197,65 @@ ul.topnav li.icon {
     color: black;
 }
 
-.footer {
-    width: 100vw;
-    max-width: 100%:
-    height: 10vh;
+
+
+#bottomnav {
+    width: 100%;
+    height: 5vh;
+    line-height: auto;
+    background-color: black;
+    display: inline-block;
+    margin: 0;
+    position: relative;
+    padding-top: 2vh;
+}
+
+#bottomnav li a:link{
+    text-decoration: none;
+    color: white;
+}
+
+#bottomnav a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+#bottomnav a:visited{
+    text-decoration: none;
+    color: white;
+}
+#bottomnav ol{
+    height: auto;
+    width: 75%;
+    margin: 0;
+    display: inline;
+}
+#bottomnav li{
+    padding-left: 1vw;
+    padding-right: 1vw;
     background-color: black;
     color: white;
-    
+    list-style-type: none;
+    display: inline;
 }
+
+.credit {
+    background-color: black;
+    display: inline;
+    width: 25vw;
+    max-width: 25%;
+    margin: 0;
+    color: white;
+    padding-left: 40vw;
+}
+
 @media screen and (max-width:680px) {
     ul.topnav li:not(:first-child){
         display: none;
     }
     ul.topnav li.icon{
         float: right;
-        display: inline-block;
+        display: inline;
     }
 }
 
