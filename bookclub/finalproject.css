@@ -1,0 +1,188 @@
+/* Emily Miller
+   finalproject.css
+   Info 1314.WW
+   Bridgham
+   2/23/17
+*/
+
+body {
+	background-color: #2e243a;
+	max-width: 100%;
+	margin: 0;
+}
+
+#wrapper {
+	margin-top: 10vh;
+	margin-bottom: 10vh;
+	margin-left: 10vw;
+	margin-right: 10vw;
+	max-width: 80vw;
+}
+
+header {
+	width: 80vw;
+	background-color: #ffe1b7;
+
+}
+
+header img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+nav {
+	width: 80vw;
+	background-color: #434457;
+
+}
+
+nav ul {
+	margin-top: 0;
+	list-style-type: none;
+}
+
+nav li {
+	display: inline;
+	line-height: 50px;
+	font-size: 25px;
+	text-align: center;
+	padding: 15px;
+}
+
+nav li a {
+	color: #ffe1b7;
+	text-decoration: none;
+}
+
+p {
+	width: 50vw;
+	margin-top: 10vh;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 25px;
+	color: #ffe1b7;
+}
+
+#ad {
+	display: inline;
+	width: 280px;
+	margin-top: 0;
+}
+
+#homeimg {
+	display: inline;
+	width: 426px;
+	margin-left: auto;
+	margin-right: 10px;
+}
+
+table {
+	display: inline-block;
+	width: 50%;
+	background-color: #4F596E;
+	color: white;
+	font-size: 20px;
+	font-family: arial, sans-serif;
+	padding-left: 8px;
+	padding-right: 0;
+}
+
+th {
+	height: 60px;
+	text-align: left;
+}
+
+td {
+	border: 1px solid black;
+	padding: 3px;
+}
+
+tr {
+	height: 50px;
+}
+
+span {
+	font-style: italic;
+}
+
+#next {
+	display: inline;
+	width: 47%;
+	padding: 0;
+	margin: 0;
+}
+
+#nextpic {
+	display: inline;
+	width: 47%;
+}
+
+#nextpic img {
+	width: 47%;
+	padding: 1%;
+}
+
+#nowread img {
+	max-width: 20%;
+	float: left;
+	padding-right: 10%;
+	padding-top: 10%;
+}
+
+h1 {
+	color: #ffe1b7;
+	padding-left: 10%;
+}
+
+h2 {
+	color: #ffe1b7;
+	padding-left: 10%;
+}
+
+.nowp {
+	padding: 0;
+	margin: 0;
+	text-indent: 18px;
+}
+
+.nowp a {
+	color: #ffe1b7;
+}
+
+#previousreads {
+	display: inline;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#previousreads img {
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30vw;
+}
+
+#previousreads, #about ul {
+	color: #ffe1b7;
+}
+
+#previousreads li {
+	list-style-type: none;
+	font-size: 20px;
+	padding-left: 20vw;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	color: #ffe1b7;
+}
+
+#about li {
+	list-style-type: none;
+	font-size: 20px;
+	padding-left: 20vw;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	color: #ffe1b7;
+}

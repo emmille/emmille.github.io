@@ -57,26 +57,26 @@ ul.topnav li.icon {
     background: white;
     z-index: 1;
     opacity: 0.7;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -35vh;
-    margin-left: -40vw;
+    position: relative;
+    top: 25%;
+    margin: 0 auto;
     min-height: 50%;
     overflow: hidden;
 
 }
-
-.emily img {
-    float: right;
-    height: 45vh;
+.left {
+    display: inline-flex;
+    width: 49%;
+    height: 100%;
+    flex-direction: row;
+    margin: 0;
 }
 
 .name {
     color: black;
     list-style: none;
     font-size: 45px;
-    font-family: 'Taviraj', serif, bold;   
+    font-family: 'Taviraj', serif, bold; 
 }
 
 .name li {
@@ -85,6 +85,16 @@ ul.topnav li.icon {
     left: 2vw;
     font-family: 'Lato', sans-serif;
 }
+
+#right {
+    display: inline-flex;
+    width: 50%;
+    height: 100%;
+    flex-direction: row;
+    margin: 0;
+}
+
+
 
 .projects {
     position: relative;
